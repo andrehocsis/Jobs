@@ -1,0 +1,47 @@
+/* ARQUIVO: assets/css/style.css */
+
+/* Importação da Fonte Oficial */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --blipei-primary: #673DE6;
+    --blipei-hover: #5a32d1;
+    --blipei-dark: #36344D;
+    --text-main: #1f2937;
+    --bg-light: #F8F9FC;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilitários de Cor Blipei */
+.text-blipei { color: var(--blipei-primary) !important; }
+.bg-blipei { background-color: var(--blipei-primary) !important; }
+.border-blipei { border-color: var(--blipei-primary) !important; }
+
+.hover-bg-blipei:hover { background-color: var(--blipei-hover) !important; }
+.hover-text-blipei:hover { color: var(--blipei-primary) !important; }
+
+/* Animação do Logo */
+.logo-group:hover rect {
+    fill: var(--blipei-hover);
+    transition: fill 0.3s ease;
+}
+
+/* Mobile Menu Transitions */
+#mobile-menu {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+#mobile-menu.open {
+    max-height: 400px; /* Valor aproximado para permitir animação */
+    opacity: 1;
+}

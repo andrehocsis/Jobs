@@ -1,0 +1,31 @@
+{
+    "categorias": {
+        "dev_back": "Desenvolvimento Backend",
+        "dev_front": "Desenvolvimento Frontend",
+        "dev_mobile": "Mobile (iOS\/Android)",
+        "devops": "DevOps & Infra",
+        "dados": "Dados & Analytics",
+        "produto": "Produto (PO\/PM)",
+        "design": "UI\/UX Design",
+        "marketing": "Marketing Digital",
+        "suporte": "Suporte Técnico"
+    },
+    "niveis": [
+        "Estágio",
+        "Júnior",
+        "Pleno",
+        "Sênior",
+        "Especialista",
+        "Tech Lead"
+    ],
+    "regimes": [
+        "CLT",
+        "PJ",
+        "Freelance"
+    ],
+    "modelos": [
+        "Remoto",
+        "Híbrido",
+        "Presencial"
+    ]
+}
